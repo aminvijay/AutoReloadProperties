@@ -8,7 +8,7 @@ public class App
         while(true)
         {
             
-            System.out.println(ApplicationProperties.getProperty("myname"));
+            System.out.println("------->" + ApplicationProperties.getProperty("myname"));
         }
     }
 }
